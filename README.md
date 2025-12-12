@@ -4,7 +4,7 @@ Prototype académique d’un **chatbot RAG (Retrieval-Augmented Generation)** pe
 
 ---
 
-## ⚙️ Technologies
+##  Technologies
 - Python
 - PostgreSQL + pgvector
 - Transformers (BGE embeddings)
@@ -12,18 +12,18 @@ Prototype académique d’un **chatbot RAG (Retrieval-Augmented Generation)** pe
 
 ---
 
-## 📂 Données
+##  Données
 - Dossier : `data/TRAIN_TXT`
 - Type utilisé : `.txt`
 - Découpage en chunks de **1000 caractères**
 
 ---
 
-## 🧠 Fonctionnement
+##  Fonctionnement
 1. Vectorisation des documents
 2. Stockage des embeddings en base
 3. Recherche des documents pertinents
 4. Génération de la réponse avec Gemini
 
-python prototype.py
+
 
