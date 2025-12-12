@@ -1,4 +1,4 @@
-# 🤖 Simple RAG Chatbot
+# 🤖 RAG Chatbot
 
 Prototype académique d’un **chatbot RAG (Retrieval-Augmented Generation)** permettant de répondre à des questions à partir de **documents locaux** grâce à la **recherche sémantique** et à un **LLM (Gemini)**.
 
