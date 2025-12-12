@@ -3,6 +3,7 @@
 # pip install transformers torch psycopg[binary] google-genai numpy PyPDF2 python-docx
 # -------------------------------
 
+
 import os
 import psycopg
 from psycopg.rows import dict_row
@@ -151,3 +152,4 @@ with psycopg.connect(db_connection_str) as conn:
         answer = generate_answer(user_question, context)
         print("\n=== RAG GEMINI ANSWER ===")
         print(answer)
+
